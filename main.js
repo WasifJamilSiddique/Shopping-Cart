@@ -68,4 +68,19 @@ secondCartRemove.addEventListener("click", function(){
     secondCart.style.display = "none";
 })
 
+const checkoutBtn = document.getElementById("check-button");
+const mainSection = document.getElementById("mainSection");
+const smsg = document.getElementById("successfulMsg");
+const formSection = document.getElementById("form-section");
+checkoutBtn.addEventListener("click", function(){
+    mainSection.style.display = "none";
+    smsg.style.display = "block";
+})
+
+const formSubmit = document.getElementById("formSubmit");
+formSubmit.addEventListener("click", function(){
+    formSection.style.display = "none";
+    mainSection.style.display = "block";
+})
+
 

@@ -53,3 +53,15 @@ body{
 	background-color: #2FBE70;
 	border: none;
 }
+
+#successfulMsg{
+	display: none;
+}
+
+#mainSection{
+	display: none;
+}
+
+.bg-dark{
+	width: 200px;
+}
